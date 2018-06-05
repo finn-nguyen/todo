@@ -7,7 +7,7 @@ import './App.scss'
 class App extends React.Component<void> {
   render () {
     return (
-      <div>
+      <div styleName='app-container'>
         <TodoList />
       </div>
     )
